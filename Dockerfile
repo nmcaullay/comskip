@@ -6,6 +6,7 @@ WORKDIR /tmp
 
 ADD PlexComskip.conf /opt/PlexComskip.conf
 ADD PlexComskip.py /opt/PlexComskip.py
+RUN chmod +x /opt/PlexComskip.py
 ADD comskip.ini /opt/comskip.ini
 
 
