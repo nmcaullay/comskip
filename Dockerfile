@@ -2,6 +2,8 @@ FROM alpine:3.11
 
 WORKDIR /tmp
 
+# test
+
 ADD PlexComskip.conf /opt/PlexComskip.conf
 ADD PlexComskip.py /opt/PlexComskip.py
 ADD comskip.conf /opt/comskip.ini
