@@ -6,7 +6,7 @@ WORKDIR /tmp
 
 ADD PlexComskip.conf /opt/PlexComskip.conf
 ADD PlexComskip.py /opt/PlexComskip.py
-ADD comskip.conf /opt/comskip.ini
+ADD comskip.ini /opt/comskip.ini
 
 
 RUN apk --no-cache add python ffmpeg tzdata bash \
